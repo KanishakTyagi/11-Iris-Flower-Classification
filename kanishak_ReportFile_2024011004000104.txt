@@ -1,0 +1,67 @@
+INTRODUCTION TO AI
+
+ 
+PROJECT REPORT
+
+PROBLEM STATEMENT: - Iris Flower Classification – Classify flower species based on petal and sepal dimensionsusing the Iris dataset.
+
+NAME: - KANISHAK TYAGI
+BRANCH: - CSE(AIML)
+SECTION: - B
+ROLL NO.: - 202401100400104
+
+
+
+INTRODUCTION
+
+
+Objective: The objective of this project is to build a machine learning model capable of classifying iris flowers into three species (Setosa, Versicolour, Virginica) based on their physical attributes: sepal length, sepal width, petal length, and petal width. The model aims to achieve high accuracy and generalization using Logistic Regression while also providing useful visualizations to understand the classification process.
+DATA SET DESCRIPTION:
+The Iris dataset is a well-known dataset introduced by Ronald Fisher in 1936. It contains 150 samples of iris flowers, equally distributed among three classes:
+
+Setosa (0)
+Versicolour (1)
+Virginica (2)
+
+
+Features:
+Sepal Length (cm)
+Sepal Width (cm)
+Petal Length (cm)
+Petal Width (cm).
+
+ METHODOLOGY
+The code works in the following manner: -
+Data Loading & Preprocessing:
+The dataset is loaded using the sklearn.datasets library.
+Features (X) and labels (y) are extracted.
+The data is split into training and testing sets (80% training, 20% testing).
+Feature scaling is applied using StandardScaler to standardize the data for better model performance.
+Model Training:
+A Logistic Regression model is created using LogisticRegression() from sklearn.
+The model is trained using the training dataset via the fit() method.
+Prediction & Evaluation:
+Predictions are made on the testing set using the predict() method.
+The model's performance is evaluated using metrics like Accuracy, Classification Report, and Confusion Matrix.
+Visualization:
+A pairplot is generated to visualize the relationships between features.
+A heatmap of the Confusion Matrix is displayed to show prediction performance.
+
+
+OUTPUT
+
+ Accuracy: 100.00%
+
+Classification Report:
+               precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       1.00      1.00      1.00         9
+   virginica       1.00      1.00      1.00        11
+
+    accuracy                           1.00        30
+   macro avg       1.00      1.00      1.00        30
+weighted avg       1.00      1.00      1.00        30
+ 
+
+
