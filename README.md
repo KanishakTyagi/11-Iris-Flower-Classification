@@ -1,1 +1,3 @@
-# 11-Iris-Flower-Classification
+The objective of this project is to create a machine learning model that can precisely classify iris flowers into one of three species: Setosa, Versicolour, or Virginica. The classification is made on the basis of four numeric features that characterize the flowers: sepal length, sepal width, petal length, and petal width.
+
+This is a supervised learning task with a trained model on a labeled dataset to estimate the class of unseen new data. The problem is in determining the best decision boundaries that can distinguish between the three species well using a simple and stable classification algorithm.
